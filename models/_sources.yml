@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: etleap 
+    schema: yijun_test
+    tables:
+      - name: inputintodbt
