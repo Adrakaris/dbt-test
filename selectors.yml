@@ -3,4 +3,4 @@ selectors:
     description: "passthrough model for dbt"
     definition:
       method: fqn
-      value: passthrough_hosted_notexst
+      value: passthrough_hosted
