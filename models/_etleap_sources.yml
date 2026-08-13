@@ -1,9 +1,25 @@
 version: 2
 sources:
+  - name: YIJUN
+    database: ETLEAP_DEV
+    quoting:
+        schema: true
+        identifier: true
+    tables:
+      - name: S3_FILE_CHANGES_LOCAL
+  - name: yijun_test
+    database: GLUE_ICEBERG_REST_LINKED_DB
+    quoting:
+        schema: true
+        identifier: true
+    tables:
+      - name: important_data___sheet1_local_gsheets
+      - name: local_schema_change_annumbers
   - name: YIJUN_TWO
     database: ETLEAP_DEV
     quoting:
         schema: true
         identifier: true
     tables:
-      - name: DBT_CONFIRM_HOSTED_IN
+      - name: IAS_INPUTTODBT
+      - name: MSTAR_WRANGLER_SCHEMA_CHANGE
