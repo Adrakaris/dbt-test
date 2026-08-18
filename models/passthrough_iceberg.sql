@@ -1,1 +1,1 @@
-select * from {{ source('yijun_test', 'annumbers_local') }};
+select * from {{ source('yijun_test', 'annumbers_local') }}
