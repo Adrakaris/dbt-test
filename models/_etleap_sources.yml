@@ -13,8 +13,8 @@ sources:
         schema: true
         identifier: true
     tables:
+      - name: annumbers_local
       - name: important_data___sheet1_local_gsheets
-      - name: local_schema_change_annumbers
   - name: YIJUN_TWO
     database: ETLEAP_DEV
     quoting:

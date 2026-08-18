@@ -1,1 +1,1 @@
-select * from {{ source('yijun_test', 'local_schema_change_annumbers') }};
+select * from {{ source('yijun_test', 'annumbers_local') }};
