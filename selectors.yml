@@ -4,3 +4,8 @@ selectors:
     definition:
       method: fqn
       value: passthrough_hosted
+  - name: local1
+    description: "passthrough model for dbt but hosted innit"
+    definition:
+      method: fqn
+      value: passthrough_iceberg
