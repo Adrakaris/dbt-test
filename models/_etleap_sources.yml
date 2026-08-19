@@ -8,7 +8,7 @@ sources:
     tables:
       - name: S3_FILE_CHANGES_LOCAL
   - name: yijun_test
-    database: GLUE_ICEBERG_REST_LINKED_DB
+    database: YIJUN_ICEBERG
     quoting:
         schema: true
         identifier: true
