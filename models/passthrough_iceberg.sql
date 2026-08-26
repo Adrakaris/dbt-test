@@ -1,1 +1,1 @@
-select * from {{ source('yijun_test', 'annumbers_2') }}
+select * from {{ source('yijun_test', 'gsheets_data') }}
